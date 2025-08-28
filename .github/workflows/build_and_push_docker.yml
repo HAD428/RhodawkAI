@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: farfalle
+  IMAGE_NAME: rhodawk
 
 jobs:
   build-and-push-image:
