@@ -1,7 +1,7 @@
 # Based on: https://github.com/cohere-ai/cohere-toolkit/blob/main/standalone.Dockerfile
 
 FROM buildpack-deps:buster as builder
-LABEL authors="rashadphz"
+LABEL authors="architect89"
 
 
 ENV PYTHON_VERSION=3.11.8
