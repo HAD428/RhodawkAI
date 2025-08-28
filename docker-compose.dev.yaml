@@ -52,7 +52,7 @@ services:
           path: ./src/backend
           target: /workspace/src/backend
     networks:
-      - farfalle-network
+      - rhodawk-network
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
@@ -77,7 +77,7 @@ services:
           ignore:
             - node_modules/
     networks:
-      - farfalle-network
+      - rhodawk-network
 
   searxng:
     image: docker.io/searxng/searxng:latest
@@ -87,7 +87,7 @@ services:
     volumes:
       - ./searxng:/etc/searxng:rw
     networks:
-      - farfalle-network
+      - rhodawk-network
 
   db:
     image: postgres:15.2-alpine
@@ -101,11 +101,11 @@ services:
     volumes:
       - db_volume:/var/lib/postgresql/data
     networks:
-      - farfalle-network
+      - rhodawk-network
 
 networks:
   farfalle-network:
-    name: farfalle-network
+    name: rhodawk-network
 
 volumes:
   db_volume:
