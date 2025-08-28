@@ -2,7 +2,7 @@ services:
   - type: web
     name: farfalle
     runtime: python
-    repo: https://github.com/rashadphz/farfalle
+    repo: https://github.com/Architect8989/RhodawkAI
     plan: free
     envVars:
       - key: TAVILY_API_KEY
