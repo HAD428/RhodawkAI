@@ -8,7 +8,7 @@ on:
       [ main ]
     paths:
     - 'src/backend/**'
-    - '.github/workflows/farfalle-backend-AutoDeployTrigger-3e5a49cd-d51c-45b9-93a5-6170d843a4cc.yml'
+    - '.github/workflows/rhodawk-backend-AutoDeployTrigger-3e5a49cd-d51c-45b9-93a5-6170d843a4cc.yml'
 
   # Allow manual trigger
   workflow_dispatch:
@@ -44,5 +44,6 @@ jobs:
           imageToBuild: farfallebackend.azurecr.io/farfalle-backend:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
+
 
 
