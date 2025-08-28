@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: farfalle
+    name: rhodawkai
     runtime: python
     repo: https://github.com/Architect8989/RhodawkAI
     plan: free
