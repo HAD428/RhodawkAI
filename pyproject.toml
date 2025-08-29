@@ -38,6 +38,9 @@ pre-commit = "^3.7.1"
 ruff = "^0.4.4"
 isort = "^5.13.2"
 
+[tool.poetry.dependencies]
+pydantic-core = { version = "2.18.2", source = "pypi" }
+
 
 [build-system]
 requires = ["poetry-core"]
