@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = {extras = ["all"], version = "^0.110.2"}
+pydantic-core = { version = "2.18.2", source = "pypi" }
 pydantic = "^2.7.1"
 requests = "^2.31.0"
 httpx = "^0.27.0"
@@ -32,6 +33,7 @@ alembic = "^1.13.1"
 psycopg2-binary = "^2.9.9"
 click = "^8.1.7"
 inquirer = "^3.3.0"
+
 
 
 [tool.poetry.group.dev.dependencies]
