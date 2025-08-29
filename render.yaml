@@ -1,9 +1,14 @@
 services:
   - type: web
     name: rhodawkai
-    runtime: python
-    repo: https://github.com/Architect8989/RhodawkAI
+    env: python
+    pythonVersion: 3.11.9
     plan: free
+    region: oregon
+    repo: https://github.com/Architect8989/RhodawkAI
+    rootDir: src/backend
+    buildCommand: poetry install
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: TAVILY_API_KEY
         sync: false
@@ -11,10 +16,4 @@ services:
         sync: false
       - key: GROQ_API_KEY
         sync: false
-    region: oregon
-    buildCommand: poetry install
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-    rootDir: src/backend
 version: "1"
-env: python
-pythonVersion: 3.11.9
