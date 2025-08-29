@@ -32,7 +32,6 @@ alembic = "^1.13.1"
 psycopg2-binary = "^2.9.9"
 click = "^8.1.7"
 inquirer = "^3.3.0"
-pydantic-core = { version = "2.18.2", source = "pypi" }
 
 
 [tool.poetry.group.dev.dependencies]
