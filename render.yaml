@@ -17,4 +17,4 @@ services:
     rootDir: src/backend
 version: "1"
 env: python
-pythonVersion: 3.12.11
+pythonVersion: 3.11.9
