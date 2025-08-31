@@ -6,7 +6,7 @@ authors = ["Architect89 <architect89@proton.me>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
+python = ">=3.11,<3.13"
 fastapi = {extras = ["all"], version = "^0.110.2"}
 pydantic = "^2.7.0"
 requests = "^2.31.0"
