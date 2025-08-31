@@ -2,11 +2,11 @@
 name = "backend"
 version = "0.1.0"
 description = ""
-authors = ["Rashad Philizaire <rashadphilizaire@gmail.com>"]
+authors = ["Architect89 <architect89@proton.me>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 fastapi = {extras = ["all"], version = "^0.110.2"}
 pydantic = "^2.7.0"
 requests = "^2.31.0"
