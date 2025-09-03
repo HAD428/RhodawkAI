@@ -17,11 +17,11 @@ const mono = Mono({
   variable: "--font-mono",
 });
 
-const title = "Farfalle";
+const title = "Hema1394";
 const description = "Open-source AI powered answer engine.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://farfalle.dev/"),
+  metadataBase: new URL("https://hema1394.vercel.app"),
   title,
   description,
   openGraph: {
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title,
     description,
     card: "summary_large_image",
-    creator: "@rashadphz",
+    creator: "@architect89",
   },
 };
 
